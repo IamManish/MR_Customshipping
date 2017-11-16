@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <config>
-  <modules>
-    <MR_Customshipping>
-      <version>0.1.0</version>
-    </MR_Customshipping>
-  </modules>
-  <global>
-    <helpers>
-      <customshipping>
-        <class>MR_Customshipping_Helper</class>
-      </customshipping>
-    </helpers>
-	<models>
-	  <customshipping>
-		<class>MR_Customshipping_Model</class>
-		<resourceModel>customshipping_mysql4</resourceModel>
-	  </customshipping>
-	</models>
-  </global>    
-	<default>
+    <modules>
+        <MR_Customshipping>
+            <version>0.1.0</version>
+        </MR_Customshipping>
+    </modules>
+    <global>
+        <helpers>
+            <customshipping>
+                <class>MR_Customshipping_Helper</class>
+            </customshipping>
+        </helpers>
+        <models>
+            <customshipping>
+                <class>MR_Customshipping_Model</class>
+                <resourceModel>customshipping_mysql4</resourceModel>
+            </customshipping>
+        </models>
+    </global>    
+    <default>
         <carriers>
             <customshipping>
                 <active>1</active>
